@@ -1,6 +1,15 @@
 
 body{
 }
+.word_spacing{
+    word-spacing: .2rem;
+}
+.fw_custom-css{
+    font-family: "Montserrat";
+}
+.fw_secondary_custom-css{
+    font-size: 1.6rem;
+}
 .box {
     transition: .5s linear;
     position: relative;
@@ -75,7 +84,9 @@ body{
     font-size: .9rem;
     text-transform: capitalize;
   }
-  
+  .test_secondarybtn{
+    background: #0B4DE4;
+  }
   .testbutton:active {
     box-shadow: -3px 3px 0 0 hsla(0, 0%, 5%);
     top: 3px;
