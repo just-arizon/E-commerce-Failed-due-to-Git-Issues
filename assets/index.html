@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
+    <!-- Splide.JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   </head>
   <body>
     <header>
@@ -24,7 +26,7 @@
           </div>
 
           <div class="" id="navmenu">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav d-flex flex-row">
               <li class="nav-item mx-3">
                 <a href="#" class="nav-link">Products</a>
               </li>
@@ -68,14 +70,69 @@
         </div>
     </div>
 </section>
-
 <!--  -->
-<section>
+<section class=" company-section d-none d-md-block">
+  <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-md-6">
+          <ul class="d-flex justify-content-center list-unstyled d-flex">
+          
+                         <li class="list-item"><img src="./img/apple-pay-svgrepo-com.svg" class="img-logo"alt="company logos"></li>
+                         <li class="list-item"><img class="img-logo mx-3" src="./img/google-pay-svgrepo-com.svg" alt="company logos"></li>
+                         <li class="list-item"><img class=" img-logo mx-3 " src="./img/bitpay-svgrepo-com.svg" alt="company logos"></li>
+                         <li class="list-item"><img class=" img-logo mx-3 " src="./img/stripe-svgrepo-com.svg" alt="company logos"></li>
+                         <li class="list-item"><img class=" img-logo mx-3 " src="./img/amazon-pay-svgrepo-com.svg" alt="company logos"></li>
+                         <li class="list-item"><img class=" img-logo mx-3 " src="./img/skrill-svgrepo-com.svg" alt="company logos"></li>
+                         <li class="list-item"><img class=" img-logo mx-3 " src="./img/paypal-svgrepo-com.svg" alt="company logos"></li>
+          </ul>
+        </div>
+      </div>
+  </div>
+</section>
+<!--  -->
+<section class="splide" aria-label="Slide Container Example container">
+    <div class="container">
+        <div class="row">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="splide__slide__container">
+                    <img src="./img/keyboard.png">
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="splide__slide__container">
+                    <img src="./img/Shoe-design.png">
+                  </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="splide__slide__container">
+                      <img src="./img/television.png">
+                    </div>
+                  </li>
+              </ul>
+            </div>
+        </div>
+    </div>
+  </section>
+<!--  -->
+<section class="m-5">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="showcase">
                     <h2 class="fw-bolder word_spacing text-center fw_secondary_custom-css">Not just for you, your loved ones too</h2>
+                    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+                        <div class="splide__track">
+                              <ul class="splide__list">
+                                  <li class="splide__slide bg-primary text-center">Slide 01</li>
+                                  <li class="splide__slide bg-primary text-center">Slide 02</li>
+                                  <li class="splide__slide bg-primary text-center">Slide 03</li>
+                              </ul>
+                        </div>
+                      </div>
+                        
+                      </div>
                 </div>
             </div>
         </div>
@@ -86,7 +143,13 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+
     <!-- icons -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Splide.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="/assets/splide.js"></script>
   </body>
 </html>
