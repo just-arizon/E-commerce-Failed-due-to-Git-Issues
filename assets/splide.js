@@ -12,6 +12,7 @@ new Splide( '.splide',{
     autoScroll: {
       speed: 3,
       autoStart: boolean = true,
+      height: '50%',
       pauseOnHover: boolean = false,
       rewind: boolean,
     },

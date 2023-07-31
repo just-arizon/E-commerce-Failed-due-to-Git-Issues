@@ -18,36 +18,45 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light mb-4">
-        <div class="container d-flex justify-content-between p-2">
+        <div class="container d-flex justify-content-between p-2 flex-md-row flex-sm-column">
           <div class="logo_container">
             <a href="#" class="navbar-brand fw-bolder mx-1"
               ><box-icon name="shopping-bags" type="solid"></box-icon>Verify</a
             >
           </div>
 
-          <div class="" id="navmenu">
-            <ul class="navbar-nav d-flex flex-row">
-              <li class="nav-item mx-3">
-                <a href="#" class="nav-link">Products</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a href="#" class="nav-link">Delivery</a>
-              </li>
-              <li class="nav-item mx-3">
-                <a href="#" class="nav-link">Cart</a>
-              </li>
-            </ul>
+          <div class="menu-container">
+            <div class="menu d-flex flex-wrap flex-sm-nowrap flex-row flex-md-row">
+              <div class="" id="navmenu">
+                <ul class="navbar-nav d-flex flex-row">
+                  <li class="nav-item mx-3">
+                    <a href="#" class="nav-link">Products</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a href="#" class="nav-link">Delivery</a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <a href="#" class="nav-link">Cart</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="call-to-action">
+                <div class="d-flex" data-bs-toggle="modal" data-bs-target="#signup">
+                    <button>
+                        <span class="box">
+                            LogIn
+                        </span>
+                    </button>
+                  <button class="testbutton fw-semibold">
+                    Get Started <span class="fw-light">-It's Free!</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="call-to-action">
-            <div class="" data-bs-toggle="modal" data-bs-target="#signup">
-                <button>
-                    <span class="box">
-                        LogIn
-                    </span>
-                </button>
-              <button class="testbutton fw-semibold">
-                Get Started <span class="fw-light">-It's Free!</span>
-              </button>
+          <div class="harmburger-container d-sm-none d-md-none">
+            <div class="harmburger">
+              <iconify-icon icon="solar:hamburger-menu-line-duotone" width="30"></iconify-icon>
             </div>
           </div>
         </div>
@@ -151,5 +160,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
     <script src="/assets/splide.js"></script>
+    <!-- iconify -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   </body>
 </html>
