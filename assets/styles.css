@@ -1,6 +1,9 @@
 
 body{
 }
+.navbar{
+  box-shadow: 0px 10px 27px -3px rgba(0,0,0,0.1);
+}
 
 .word_spacing{
     word-spacing: .2rem;
@@ -97,9 +100,27 @@ body{
   nav div.menu-container{
   display: none;
 }
-.harmburger {
- 
+.small_screen-menu-container{
+ display: none;
 }
+.small_screen-menu-container.active{
+  display: block;
+}
+.small-menu{
+    position: fixed;
+    top: 0;
+    right: -400px;
+    transition: right 0.3s ease-in-out;
+}
+.small-menu.active{
+  right: 0;
+}
+}
+/*  */
+@media (min-width: 573px){
+  .small_screen-menu-container{
+    display: none;
+   }
 }
   .test_secondarybtn{
     background: #0B4DE4;
