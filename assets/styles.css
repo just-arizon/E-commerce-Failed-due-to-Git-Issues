@@ -198,7 +198,7 @@ body{
   }
 
   .splide__track {
-    height: 222px;
+    height: 333px;
     border-radius: 10px;
   }
   /* media query */
@@ -219,4 +219,13 @@ body{
     height: auto;
     /* object-fit: contain; */
   }
- 
+ .wrapper img{
+ border-radius: 10px;
+ }
+div.presentation_header h3{
+  background-image: var(--gradient-text);
+}
+ li.img-svg svg{
+  width: 100px;
+  height: auto;
+}
