@@ -9,11 +9,12 @@ for ( var i = 0; i < elms.length; i++ ) {
   } );
 //  Auto-Scroll Slide 
 new Splide( '.splide',{
+    type   : 'loop',
     autoScroll: {
-      speed: 3,
+      speed: 2,
       autoStart: boolean = true,
       height: '50%',
       pauseOnHover: boolean = false,
-      rewind: boolean,
+      
     },
   } ).mount( window.splide.Extensions );

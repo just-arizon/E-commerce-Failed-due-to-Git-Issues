@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/styles.css" />
     <!--  -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Montserrat:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Montserrat:wght@300&display=swap"
       rel="stylesheet"
     />
     <!-- Splide.JS -->
@@ -30,13 +30,13 @@
               <div class="" id="navmenu">
                 <ul class="navbar-nav d-flex flex-row">
                   <li class="nav-item mx-3">
-                    <a href="#" class="nav-link">Products</a>
+                    <a href="#" class="nav-link fw_custom-css fw-bolder">Products</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a href="#" class="nav-link">Delivery</a>
+                    <a href="#" class="nav-link fw_custom-css fw-bolder">Delivery</a>
                   </li>
                   <li class="nav-item mx-3">
-                    <a href="#" class="nav-link">Cart</a>
+                    <a href="#" class="nav-link fw_custom-css fw-bolder">Cart</a>
                   </li>
                 </ul>
               </div>
@@ -48,14 +48,14 @@
                         </span>
                     </button>
                   <button class="testbutton fw-semibold">
-                    Get Started <span class="fw-light">-It's Free!</span>
+                    Get Started <span class="fw_custom-css">-It's Free!</span>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="harmburger-container d-sm-none d-md-none">
-            <div class="harmburger">
+          <div class="hamburger-container d-sm-none d-md-none">
+            <div class="hamburger">
               <iconify-icon icon="solar:hamburger-menu-line-duotone" width="30"></iconify-icon>
             </div>
           </div>
@@ -63,32 +63,39 @@
       </nav>
     </header>
 <!-- Small screen navigation bar -->
-<div class="small_screen-menu-container d-md-none">
+<div class="small_screen-menu-container">
   <div class="small-menu">
     <div class="" id="navmenu">
-      <ul class="navbar-nav d-flex flex-column">
-        <li class="nav-item mx-3">
-          <a href="#" class="nav-link">Products</a>
+      <ul class="navbar-nav d-flex flex-column pt-2 pb-3">
+        <li class="nav-item mx-1">
+          <a href="#" class="nav-link"><iconify-icon icon="ph:arrow-right-bold" style="color: white;" width="20"></iconify-icon></a>
         </li>
-        <li class="nav-item mx-3">
-          <a href="#" class="nav-link">Delivery</a>
+        <li class="nav-item mx-2 d-flex justify-content-between">
+          <a href="#" class="nav-link fw_custom-css">Products</a>
+          <iconify-icon icon="ic:round-arrow-right" style="color: white;" width="25" class="d-flex align-items-center"></iconify-icon>
         </li>
-        <li class="nav-item mx-3">
-          <a href="#" class="nav-link">Cart</a>
+        <li class="nav-item mx-2 d-flex justify-content-between">
+          <a href="#" class="nav-link fw_custom-css">Delivery</a>
+          <iconify-icon icon="ic:round-arrow-right" style="color: white;" width="25" class="d-flex align-items-center"></iconify-icon>
+        </li>
+        <li class="nav-item mx-2 d-flex justify-content-between">
+          <a href="#" class="nav-link fw_custom-css">Cart</a>
+          <iconify-icon icon="ic:round-arrow-right" style="color: white;" width="25" class="d-flex align-items-center"></iconify-icon>
+        </li>
+        <li class="nav-item mx-2 d-flex justify-content-between">
+          <a href="#" class="nav-link fw_custom-css">LogIn</a>
+          <iconify-icon icon="ic:round-arrow-right" style="color: white;" width="25" class="d-flex align-items-center"></iconify-icon>
+        </li>
+        <li class="nav-item mx-2 d-flex justify-content-between">
+          <a href="#" class="nav-link fw_custom-css">Get Started</a>
+          <iconify-icon icon="ic:round-arrow-right" style="color: white;" width="25" class="d-flex align-items-center"></iconify-icon>
         </li>
       </ul>
     </div>
-    <div class="call-to-action flex-wrap">
-      <div class="d-flex flex-row">
-          <button class="d-flex flex-start align-items-center">
-              <span class="box">
-                  LogIn
-              </span>
-          </button>
-        <button class="testbutton fw-semibold m-3">
-          Get Started <span class="fw-light">-It's Free!</span>
-        </button>
-      </div>
+    <div class="logo_container d-flex justify-content-center p-3">
+      <a href="#" class="navbar-brand fw-bolder mx-1"
+        ><box-icon name="shopping-bags" type="solid" color="#fff"></box-icon>Verify</a
+      >
     </div>
   </div>
 </div>
@@ -98,7 +105,7 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center p-4">
                 <div class="landing_Intro p-lg-4 p-md-2 col-10">
-                    <h1 class="fw-bolder text-center word_spacing">Engage your customers, everywhere. From one place</h1>
+                    <h1 class="fw-bolder text-center">Engage your customers, everywhere. From <span class="gradient-text">one place</span></h1>
                     <p class="fw-semibold mt-5 text-center fw_custom-css word_spacing">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione vero fugiat provident in dolorem minus incidunt quod et ea aut?</p>
                     <div class="d-flex justify-content-center mt-5">
                         <button class="testbutton test_secondarybtn fw-semibold text-light"> Sign Up For Free
@@ -113,6 +120,7 @@
 <section class=" company-section d-none d-md-block">
   <div class="container">
       <div class="row d-flex justify-content-center">
+
         <div class="col-12 col-md-6">
           <ul class="d-flex justify-content-center list-unstyled d-flex">
           
@@ -132,6 +140,9 @@
 <section class="splide" aria-label="Slide Container Example container">
     <div class="container">
         <div class="row">
+          <div class="mt-5">
+            <h2 class="text-center fw-bolder">Store</h2>
+          </div>
             <div class="splide__track">
               <ul class="splide__list">
                 <li class="splide__slide">
@@ -141,12 +152,17 @@
                 </li>
                 <li class="splide__slide">
                   <div class="splide__slide__container">
-                    <img src="./img/Shoe-design.png">
+                    <img src="./img/shoes.png">
                   </div>
                 </li>
                 <li class="splide__slide">
                     <div class="splide__slide__container">
                       <img src="./img/television.png">
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__slide__container">
+                      <img src="./img/te.png">
                     </div>
                   </li>
               </ul>
@@ -160,17 +176,8 @@
         <div class="row">
             <div class="col-12">
                 <div class="showcase">
-                    <h2 class="fw-bolder word_spacing text-center fw_secondary_custom-css">Not just for you, your loved ones too</h2>
-                    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
-                        <div class="splide__track">
-                              <ul class="splide__list">
-                                  <li class="splide__slide bg-primary text-center">Slide 01</li>
-                                  <li class="splide__slide bg-primary text-center">Slide 02</li>
-                                  <li class="splide__slide bg-primary text-center">Slide 03</li>
-                              </ul>
-                        </div>
-                      </div>
-                        
+                    <h2 class="fw-bolder word_spacing text-center fw_secondary_custom-css">Not just for you, your <span class="gradient-text">loved ones</span> too</h2>
+                   
                       </div>
                 </div>
             </div>
@@ -178,7 +185,7 @@
     </div>
 </section>
 <!-- Script -->
-<script src="./app.js"></script>
+<script src="../assets/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
