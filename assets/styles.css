@@ -1,12 +1,18 @@
 :root{
   --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
-body{
+.logo_theme{
+  color: #878585;
+}
+.logo_theme:hover{
+ color: #ffff;
 }
 .navbar{
   box-shadow: 0px 10px 27px -3px rgba(0,0,0,0.1);
 }
-
+.navmenu_prolinks{
+  padding-left: 4.5rem;
+}
 .gradient-text{
   -webkit-text-fill-color:transparent;
   -webkit-background-clip: text;
@@ -87,8 +93,9 @@ body{
 .testbutton {
     width: 200px;
     height: 40px;
-    background: #fff;
-    box-shadow: -6px 6px 0 0 hsl(0, 0%, 5%);
+    background: #ae67fa;
+    color: #ffff;
+    box-shadow: -6px 6px 0 0 #f49867 ;
     border: none;
     outline: none;
     position: relative;
@@ -108,7 +115,8 @@ body{
   /* menu display-none */
 /* media query */
 @media (max-width: 573px){
-  nav div.menu-container{
+  nav div.menu-container,
+  .navmenu_prolinks{
   display: none;
 }
 .small_screen-menu-container{
@@ -141,9 +149,9 @@ body{
 }
 
 }
-
+/* here */
   .test_secondarybtn{
-    background: #0B4DE4;
+    background: #ae67fa;
   }
   .testbutton:active {
     box-shadow: -3px 3px 0 0 hsla(0, 0%, 5%);
@@ -159,7 +167,7 @@ body{
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-right: 6px solid hsla(0, 0%, 5%);
+    border-right: 6px solid #f49867;
     border-left-width: 0;
     top: 0;
     left: -6px;
@@ -167,7 +175,7 @@ body{
   
   .testbutton:active::before {
     border: 3px solid transparent;
-    border-right: 3px solid hsla(0, 0%, 5%);
+    border-right: 3px solid #f49867;
   }
   
   .testbutton::after {
@@ -177,7 +185,7 @@ body{
     width: 0;
     height: 0;
     border: 6px solid transparent;
-    border-top: 6px solid hsla(0, 0%, 5%);
+    border-top: 6px solid #f49867;
     border-bottom-width: 0;
     bottom: -6px;
     right: 0;
@@ -185,7 +193,7 @@ body{
   
   .testbutton:active:after {
     border: 3px solid transparent;
-    border-top: 3px solid hsla(0, 0%, 5%);
+    border-top: 3px solid #f49867;
   }
   .img-logo{
     width: 84px;
@@ -253,9 +261,6 @@ body{
   }
   }
  
-  .splide__slide__container{
-  
-  }
   .splide__slide img {
     width: 100%;
     height: auto;
@@ -264,9 +269,6 @@ body{
  .wrapper img{
  border-radius: 10px;
  }
-div.presentation_header h3{
-  background-image: var(--gradient-text);
-}
  li.img-svg svg{
   width: 100px;
   height: auto;

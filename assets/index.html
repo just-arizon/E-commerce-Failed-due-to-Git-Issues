@@ -25,43 +25,48 @@
           class="container d-flex justify-content-between p-2 flex-md-row flex-sm-column"
         >
           <div class="logo_container">
-            <a href="#" class="navbar-brand fw-bolder mx-1"
-              ><box-icon name="shopping-bags" type="solid"></box-icon>Verify</a
+            <a href="#" class="navbar-brand fw-bolder mx-1 logo_theme"
+              ><box-icon name="shopping-bags" type="solid" color="#fff"></box-icon>Verify</a
             >
+          </div>
+          <!--  -->
+          <div class="navmenu_prolinks">
+            <div class="" id="navmenu">
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link fw_custom-css fw-bolder"
+                    >Products</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link fw_custom-css fw-bolder"
+                    >Delivery</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link fw_custom-css fw-bolder"
+                    >Cart</a
+                  >
+                </li>
+                <li class="nav-item mx-3">
+                  <a href="#" class="nav-link fw_custom-css fw-bolder"
+                    >More</a
+                  >
+                </li>
+              </ul>
+            </div>
           </div>
           <!-- Big-screen navigation bar -->
           <div class="menu-container">
             <div
               class="menu d-flex flex-wrap flex-sm-nowrap flex-row flex-md-row"
             >
-              <div class="" id="navmenu">
-                <ul class="navbar-nav d-flex flex-row">
-                  <li class="nav-item mx-3">
-                    <a href="#" class="nav-link fw_custom-css fw-bolder"
-                      >Products</a
-                    >
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a href="#" class="nav-link fw_custom-css fw-bolder"
-                      >Delivery</a
-                    >
-                  </li>
-                  <li class="nav-item mx-3">
-                    <a href="#" class="nav-link fw_custom-css fw-bolder"
-                      >Cart</a
-                    >
-                  </li>
-                </ul>
-              </div>
               <div class="call-to-action">
                 <div
                   class="d-flex"
                   data-bs-toggle="modal"
                   data-bs-target="#signup"
                 >
-                  <button>
-                    <span class="box"> LogIn </span>
-                  </button>
                   <button class="testbutton fw-semibold">
                     Get Started <span class="fw_custom-css">-It's Free!</span>
                   </button>
@@ -170,7 +175,7 @@
                 <button
                   class="testbutton test_secondarybtn fw-semibold text-light"
                 >
-                  Sign Up For Free
+                 Login
                 </button>
               </div>
             </div>
@@ -239,7 +244,7 @@
       </div>
     </section>
     <!--  -->
-    <section class="splide" aria-label="Slide Container Example container">
+    <section class="splide p-5" aria-label="Slide Container Example container">
       <div class="container">
         <div class="row">
           <div class="mt-5">
@@ -299,85 +304,89 @@
       </div>
     </section>
     <!--  -->
-    <section class="m-3">
-      <div class="row">
-        <div class="col-12">
-          <div class="presentation_header">
-            <h3 class="word_spacing p-2 text-light text-center">Shop from our collection</h3>
-          </div>
-          <span class="fw-bolder mb-3">This an image carousel without text.</span>
-          <div class="fw_custom-css fw-semibold py-3">You need to create a basic structure in HTML and insert images into slides. Make sure to describe your carousel by aria-label (or aria-labelledby) and your images by alt. They are very helpful for people using screen readers.</div>
-          <section class="splide mt-4" aria-label="Slide Container Example">
-            <div class="splide__track" >
-              <ul class="splide__list g-3 flex-row" >
-                <li class="splide__slide px-2">
-                  <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
-                  </div>
-                </li>
-                <li class="splide__slide px-2">
-                  <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
-                  </div>
-                </li>
-                <li class="splide__slide px-2">
-                  <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
-                  </div>
-                </li>
-                <li class="splide__slide px-2">
-                  <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;"">
-                  </div>
-                </li>
-              </ul>
+    <section class="m-3 p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="presentation_header">
+              <h3 class="word_spacing p-2 text-light text-center">Shop from our collection</h3>
             </div>
-          </section>
+            <span class="fw-bolder mb-3">This an image carousel without text.</span>
+            <div class="fw_custom-css fw-semibold py-3">You need to create a basic structure in HTML and insert images into slides. Make sure to describe your carousel by aria-label (or aria-labelledby) and your images by alt. They are very helpful for people using screen readers.</div>
+            <section class="splide mt-4" aria-label="Slide Container Example">
+              <div class="splide__track" >
+                <ul class="splide__list g-3 flex-row" >
+                  <li class="splide__slide px-2">
+                    <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
+                    </div>
+                  </li>
+                  <li class="splide__slide px-2">
+                    <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
+                    </div>
+                  </li>
+                  <li class="splide__slide px-2">
+                    <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg" style="width: 250px;">
+                    </div>
+                  </li>
+                  <li class="splide__slide px-2">
+                    <div class="splide__slide__container d-flex justify-content-center" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;"">
+                    </div>
+                  </li>
+                </ul>
+              </div>
+        
+      </div>   </section>
           <!--  -->
         </div>
       </div>
     </section>
     <!--  -->
-    <section class="p-3">
-      <div class="row">
-        <div class="col-12">
-          <div class="">
-            <h3 class="word_spacing p-2 text-center">Affordable Fashion</h3>
-          </div>
-          <section id="main-carousel" class="splide" aria-label="My Awesome Gallery">
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide mx-2">
-                  <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
-                  </div>
-                  <span class="fw-semibold">Gallery Carousel:</span>
-                   <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
-                </li>
-                <li class="splide__slide mx-2">
-                  <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
-                  </div>
-                  <span class="fw-semibold">Gallery Carousel:</span>
-                   <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
-                </li>
-                <li class="splide__slide mx-2">
-                  <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
-                  </div>
-                  <span class="fw-semibold">Gallery Carousel:</span>
-                   <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
-                </li>
-                <li class="splide__slide mx-2">
-                  <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
-                    <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
-                  </div>
-                  <span class="fw-semibold">Gallery Carousel:</span>
-                   <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
-                </li>
-              </ul>
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="">
+              <h3 class="word_spacing p-2 text-center">Affordable Fashion</h3>
             </div>
-          </section>
+            <section id="main-carousel" class="splide" aria-label="My Awesome Gallery">
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide mx-2">
+                    <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
+                    </div>
+                    <span class="fw-semibold">Gallery Carousel:</span>
+                     <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
+                  </li>
+                  <li class="splide__slide mx-2">
+                    <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
+                    </div>
+                    <span class="fw-semibold">Gallery Carousel:</span>
+                     <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
+                  </li>
+                  <li class="splide__slide mx-2">
+                    <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
+                    </div>
+                    <span class="fw-semibold">Gallery Carousel:</span>
+                     <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
+                  </li>
+                  <li class="splide__slide mx-2">
+                    <div class="splide__slide__container d-flex justify-content-center mb-4" style="background-color: #ddd;">
+                      <img src="./img/mountain-svgrepo-com.svg"  style="width: 250px;">
+                    </div>
+                    <span class="fw-semibold">Gallery Carousel:</span>
+                     <div class="fw_custom-css fw-semibold py-3">When the main carousel moves, the active thumbnail will change. Also, thumbnails are clickable to navigate the main carousel.</div>
+                  </li>
+                </ul>
+              </div>
+        
+      </div>    </section>
           
           <ul id="thumbnails" class="thumbnails">
             <li class="thumbnail">
