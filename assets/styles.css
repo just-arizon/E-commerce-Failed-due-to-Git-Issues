@@ -140,7 +140,7 @@ body{
   position: relative;
 }
 .product-box:hover{
-  padding: 10px;
+  padding: 5px;
   border: 1px solid var(--gradient-text);
   transition: .4s;
 }
