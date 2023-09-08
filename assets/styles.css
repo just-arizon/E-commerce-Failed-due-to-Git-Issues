@@ -1,5 +1,5 @@
 :root{
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f25e0e 102.67%);
 }
 .logo_theme{
   color: #878585;
@@ -14,7 +14,7 @@
   padding-left: 4.5rem;
 }
 body{
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 .gradient-text{
   -webkit-text-fill-color:transparent;
@@ -90,17 +90,23 @@ body{
     z-index: -100;
     /* background-color: #878585; */
     width: 50%;
-    opacity: .8;
+    opacity: .7;
   }
   .spiral_shape-two{
     position: absolute;
     top: 20rem;
-    right: -6rem;
+    right: 2rem;
     z-index: -100;
-    transform: rotate(90deg);
+    transform: rotate(185deg);
     /* background-color: #878585; */
-    width: 40%;
-    /* opacity: .8; */
+    width: 20%;
+    opacity: .7;
+  }
+  @media(max-width: 910px){
+    .spiral_shape,
+    .spiral_shape-two{
+      display: none;
+    }
   }
   button {
     color: black;
