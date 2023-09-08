@@ -1,5 +1,5 @@
 :root{
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f25e0e 102.67%);
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
 .logo_theme{
   color: #878585;
@@ -12,9 +12,6 @@
 }
 .navmenu_prolinks{
   padding-left: 4.5rem;
-}
-body{
-  overflow-x: hidden;
 }
 .gradient-text{
   -webkit-text-fill-color:transparent;
@@ -84,30 +81,7 @@ body{
     transform: translateX(0);
     transition: .3s transform linear, .3s height linear .5s;
   }
-  .spiral_shape{
-    position: absolute;
-    left: -6rem;
-    z-index: -100;
-    /* background-color: #878585; */
-    width: 50%;
-    opacity: .7;
-  }
-  .spiral_shape-two{
-    position: absolute;
-    top: 20rem;
-    right: 2rem;
-    z-index: -100;
-    transform: rotate(185deg);
-    /* background-color: #878585; */
-    width: 20%;
-    opacity: .7;
-  }
-  @media(max-width: 910px){
-    .spiral_shape,
-    .spiral_shape-two{
-      display: none;
-    }
-  }
+  
   button {
     color: black;
     text-decoration: none;
@@ -130,36 +104,6 @@ body{
   }
 
 .hamburger{
-  cursor: pointer;
-}
-.product-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,auto));
-  gap: 1.5rem;
-}
-.product-img{
-  width: 100%;
-  height: auto;
-  margin-bottom: 0.5rem;
-}
-.product-box{
-  position: relative;
-}
-.product-box:hover{
-  padding: 5px;
-  border: 1px solid var(--gradient-text);
-  transition: .4s;
-}
-.product-title{
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: .5rem;
-  text-transform:lowercase;
-}
-.add-cart{
-  position: absolute;
-  right: 0;
-  bottom: 0;
   cursor: pointer;
 }
    /* media query */
