@@ -1,5 +1,5 @@
 :root{
-  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f25e0e 102.67%);
+  --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 }
 .logo_theme{
   color: #878585;
@@ -255,6 +255,9 @@ body{
     width: 84px;
     height: auto;
   }
+  
+  /* Splide-CSS */
+
   .splide__slide{
     height: 100px;
     border-radius: 10px;
