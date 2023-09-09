@@ -199,6 +199,9 @@
     width: 84px;
     height: auto;
   }
+  
+  /* Splide-CSS */
+
   .splide__slide{
     height: 100px;
     border-radius: 10px;
